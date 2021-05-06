@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+body {
+    background: #dfdfdf;
+}
+
+.pres{
+    margin-bottom: 2em;
+}
+
+.container {
+  margin: 0 2em;
+  padding: 10px 0;
+}
+
+select {
+  width: 6em;
+  border: 1px solid;
+}
+
+.inputcontrol,
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 1.2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.row{
+    background: white;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 1em 1.5em;
+}
+
+.inputcontrol{
+    flex-direction: column;
+}
+
+.form {
+      padding: 0 8em;
+}
+
+
+select, input{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+  .container {
+    margin: 0 8em;
+  }
+  .form {
+      padding: 2em 8em;
+  }
+  .inputcontrol{
+      width: 46%;
+  }
+}

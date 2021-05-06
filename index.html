@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاستمارة الإلكترونية الخاصة بتغيير القن السري للولوج إلى بوابة التعليم العتيق بالنسبة للمدارس</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <p>
+                    الاستمارة الإلكترونية الخاصة بتغيير القن السري للولوج إلى بوابة التعليم العتيق بالنسبة للمدارس
+                </p>
+                        
+                <p class="red"> * ضروري</p>
+            </div>
+        </div>
+        <form action="#">
+            <div class="row">
+                <div class="inputcontrol">
+                    <label for="state">الجهة <span class="red">*</span></label> 
+                    <select name="states" id="states">
+                        <option value="0">اختر الجهة</option>
+                    </select>
+                </div>
+            
+                <div class="inputcontrol">
+                    <label for="state">الأقاليم  <span class="red">*</span></label>
+                    <select name="cities" id="cities" disabled>
+            
+                    </select>
+                </div>
+            
+                
+            </div>
+
+            <div class="row">
+                <div class="inputcontrol">
+                    <label for="state">اسم موسسة التعليم العتيق</label>
+                    <input type="text">
+                </div>
+                
+                <div class="inputcontrol">
+                    <label for="state">اسم المشرف</label>
+                    <input type="text">
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="inputcontrol">
+                    <label for="state">رقم الهاتف الثابت الخاص بالمؤسسة</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="inputcontrol">
+                    <label for="state">رقم الهاتف المحمول الخاص بالمشرف</label>
+                    <input type="text">
+                </div>
+            
+            </div>
+            
+            <div class="row">    
+                <div class="inputcontrol">
+                    <label for="state">إسم المكلف بالبوابة السابق</label>
+                    <input type="text">
+                </div>
+                <div class="inputcontrol">
+                    <label for="state">إسم المكلف بالبوابة المقترح بالعربية</label>
+                    <input type="text" name="" id="">
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="inputcontrol">
+                    <label for="state">إسم المكلف بالبوابة المقترح بالفرنسية</label>
+                    <input type="text">
+                </div>
+            
+                <div class="inputcontrol">
+                    <label for="state">صفة المكلف بالبوابة المقترح داخل المؤسسة</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="inputcontrol">
+                    <label for="state">
+                        البريد الإلكتروني الخاص بالمكلف بالبوابة الحالي (gmail)
+                    </label>
+                    <input type="text">
+                </div>
+            
+                <div class="inputcontrol">
+                    <label for="state">حاصل على دبلوم أو تكوين في المعلوميات؟</label>
+                    <div class="radio">
+                        لا: <input name="dip" type="radio" value="no">
+                        نغم: <input name="dip" type="radio" value="nyes">
+
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit" disabled>ارسال</button>
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
